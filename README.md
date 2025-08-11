@@ -27,12 +27,17 @@ Proyecto Java con Spring Boot que permite buscar libros en la API pública de Gu
 ---
 
 ## Estructura del proyecto
-src/ └── main/ └── java/ └── com.literalura/ ├── client/         
-# Cliente HTTP para Gutendex ├── dto/            
-# Clases DTO para deserialización ├── model/          
-# Entidades JPA ├── repository/     
-# Interfaces de persistencia ├── service/        
-# Lógica de negocio └── LiterAluraCatalogoLibrosApplication.java
+src/
+└── main/
+    └── java/
+        └── com/
+            └── literalura/
+                ├── client/         # Cliente HTTP para consumir la API de Gutendex
+                ├── dto/            # Clases DTO para mapear respuestas JSON
+                ├── model/          # Entidades JPA (Libro, Autor)
+                ├── repository/     # Interfaces de persistencia (Spring Data JPA)
+                ├── service/        # Lógica de negocio y persistencia
+                └── LiterAluraCatalogoLibrosApplication.java  # Clase principal con menú interactivo
 
 ---
 
