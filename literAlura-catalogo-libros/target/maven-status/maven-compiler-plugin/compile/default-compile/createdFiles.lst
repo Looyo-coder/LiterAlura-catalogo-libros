@@ -1,9 +1,0 @@
-com\literalura\model\Autor.class
-com\literalura\dto\LibroDTO.class
-com\literalura\dto\AutorDTO.class
-com\literalura\repository\LibroRepository.class
-com\literalura\service\CatalogoService.class
-com\literalura\LiterAluraCatalogoLibrosApplication.class
-com\literalura\client\GutendexClient.class
-com\literalura\repository\AutorRepository.class
-com\literalura\model\Libro.class
